@@ -9,7 +9,7 @@ body {
     height: 100vh;
     align-items: center;
     background-color: hsl(257, 40%, 49%);
-    background-image: url(../images/bg-mobile.svg);
+    background-image: url(bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -19,12 +19,12 @@ body {
     margin: 10px auto;
     padding: 20px 10px;
 }
-.container img[src="images/logo.svg"] {
+.container img[src="logo.svg"] {
     width: 55%;
     margin-bottom: 20px;
     margin-top: 15px;
 }
-.container img[src="images/illustration-mockups.svg"] {
+.container img[src="illustration-mockups.svg"] {
     width: 90%;
     margin: 40px auto 0;
     margin-left: 5%;
@@ -79,7 +79,7 @@ body {
     height: 30px;
     margin-left: 10px;
     color: #FFF;
-    border: 1.5px solid #FFF;
+    border: 2px solid #FFF;
     padding: 20px;
     border-radius: 50%;
     justify-content: center;
@@ -87,6 +87,7 @@ body {
     display: flex;
     text-decoration: none;
     font-size: 19px;
+    font-weight: 700;
     transition: .3s;
 }
 .social a:hover {
@@ -104,7 +105,7 @@ body {
         width: 50%;
         margin-left: 0;
     }
-    .imgs img[src="images/logo.svg"] {
+    .imgs img[src="logo.svg"] {
         width: 27%;
         cursor: pointer;
     }
@@ -117,10 +118,10 @@ body {
         position: relative;
     }
     body {
-        background-image: url(../images/bg-desktop.svg);
+        background-image: url(bg-desktop.svg);
         background-size: contain;
     }
-    .container img[src="images/illustration-mockups.svg"] {
+    .container img[src="illustration-mockups.svg"] {
         width: 94%;
         margin: 40px auto 0;
         margin-left: 5%;
